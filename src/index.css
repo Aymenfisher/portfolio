@@ -1,1 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+
+:root {
+    --Dark-Mode-Elements: hsl(209, 23%, 22%);
+    --Dark-Mode-Background: hsl(207, 26%, 17%);
+    --Light-Mode-Text: #111517;
+    --Light-Mode-Input: #858585;
+    --Light-Mode-Background: hsl(0, 0%, 98%);
+    --Dark-Mode-Text-and-Light-Mode-Elements: #ffffff;
+}
+
+ul{
+    list-style: none;
+}
+button{
+    all: unset;
+    cursor: pointer;
+}
+a{
+    text-decoration: unset;
+    color: unset;
+}
+
+html{
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+p,span{
+    font-size: 1rem;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: 100% 100%;
+}
+
+body,
+#root,
+.App{
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+}
+
+.App{
+    display: grid;
+    grid-template: 10vh 1fr / 1fr;
+}
+
+.light.App, .light .element{
+    background-color: var(--Light-Mode-Background);
+}
+.dark.App, .dark .element{
+    background-color: var(--Dark-Mode-Background);
+}
+
+.light p, .light h1, .light span{
+    color: var(--Light-Mode-Text);
+}
+.dark p, .dark h1, .dark span{
+    color: var(--Dark-Mode-Text-and-Light-Mode-Elements);
+}
+
+
+
+/* header text and colors */
 
