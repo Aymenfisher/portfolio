@@ -1,0 +1,16 @@
+/* Projects page Styling */
+
+.projects{
+    padding: 0 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards{
+    display: grid;
+    grid-template: 1fr / repeat(auto-fill,300px);
+    grid-auto-flow: row;
+    gap: 20px;
+    justify-content: space-between;
+}
+

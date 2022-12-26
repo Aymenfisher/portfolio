@@ -1,6 +1,10 @@
 import React,{useState} from 'react';
 import {Routes,Route,Navigate} from 'react-router-dom';
-import { Header } from './components/header/Header.js';
+import { Header } from './components/navbar/Header.js';
+import { Footer } from './components/footer/Footer.js';
+import { HomePage } from './components/homePage/HomePage.js';
+import { ProjectsPage } from './features/projects/cards/ProjectsPage.js';
+
 
 
 function App() {
@@ -10,8 +14,10 @@ function App() {
       <Header theme={theme} setTheme={setTheme}/>
       <Routes>
         <Route path='/' element={<Navigate to='/home'/>}/>
-
+        <Route path='/home' element={<HomePage />}/>
+        <Route path='/projects' element={<ProjectsPage />}/>
       </Routes>
+      <Footer/>
     </div>
   );
 }

@@ -1,0 +1,155 @@
+.home-page {
+    padding: 0 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.about {
+    display: grid;
+    grid-template: 500px / 1fr 40%;
+    justify-content: space-between;
+}
+
+
+.personal-photo {
+    border-radius: 30px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.about-text {
+    display: grid;
+    grid-template: 40px 1fr / 1fr;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.about-title {
+    /* clear h2 default margin and padding */
+    margin: 0;
+    padding: 0;
+}
+
+.about-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-body-text {
+    font-weight: 600;
+    text-indent: 5px;
+}
+
+.links-buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.link-button {
+    height: 40px;
+    width: 150px;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skills-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 50px;
+}
+
+.skill-body {
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+.techs {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.others {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.other-skill {
+    width: fit-content;
+    white-space: nowrap;
+    box-sizing: border-box;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.other-skill:hover {
+    opacity: .6;
+    cursor: pointer;
+}
+
+
+
+/* responsive design positionning */
+
+@media screen and (max-width: 1024px) {
+    .about {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: unset;
+        gap: 20px;
+    }
+    .personal-photo {
+        align-self: center;
+        border-radius: 30px;
+        height: 600px;
+        width: 400px;
+        object-fit: unset;
+    }
+    .skills-body {
+        padding: 0 20px;
+    }
+    .techs {
+        gap: 10px;
+        justify-content: center;
+    }
+    .links-buttons {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:410px) {
+    .personal-photo {
+        align-self: center;
+        border-radius: 30px;
+        height: 400px;
+        width: 300px;
+        object-fit: unset;
+    }
+    .links-buttons{
+        gap:10px
+    }
+    .link-button {
+        width: 120px;
+    }
+}

@@ -14,7 +14,7 @@
 .navigation-and-theme{
     box-sizing: border-box;
     display: flex;
-    gap: 10vw;
+    gap: 5vw;
     align-items: center;
 }
 
@@ -55,7 +55,7 @@
     }
     .header-navigation{
         position: fixed;
-        width: 50vw;
+        width: max(50vw,200px);
         height: 100vh;
         top: 0;
         padding: 40px 0;
@@ -63,7 +63,7 @@
         transition: right 300ms linear , box-shadow 300ms linear;
     }
     .header-navigation.hidden{
-        right: -50vw;
+        right: -100vw;
     }
     .header-navigation.visible{
         right: 0;
@@ -79,5 +79,12 @@
         justify-content: center;
         gap: 5vh;
     }
+}
+
+@media screen and (max-width:500px){
+    .header-title{
+        font-size: 1.5rem;
+    }
+    
 }
 

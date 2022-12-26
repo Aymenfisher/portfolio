@@ -1,0 +1,20 @@
+/* card Styling */
+.card-container{
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 1px 0 gray;
+}
+
+.card-container:hover{
+    transform: scale(110%);
+    transition: transform 200ms linear;
+}
+.project-screenshot:hover{
+    transform: scale(20px);
+    transition: transform 200ms linear;
+    cursor: pointer;
+}
+
+.card-body{
+    padding: 10px;
+}

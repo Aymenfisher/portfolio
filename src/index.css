@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 :root {
     --Dark-Mode-Elements: hsl(209, 23%, 22%);
@@ -9,61 +11,122 @@
     --Dark-Mode-Text-and-Light-Mode-Elements: #ffffff;
 }
 
-ul{
+ul {
     list-style: none;
 }
-button{
+
+button {
     all: unset;
     cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
 }
-a{
+
+button:hover {
+    opacity: .6;
+}
+
+a {
     text-decoration: unset;
     color: unset;
 }
 
-html{
+html {
     font-size: 18px;
     font-family: 'Nunito Sans', sans-serif;
 }
 
-p,span{
+p,
+span {
     font-size: 1rem;
 }
 
-img{
+img {
     width: 100%;
     height: 100%;
-    object-fit: 100% 100%;
 }
 
 body,
 #root,
-.App{
+.App {
     width: 100vw;
     height: 100vh;
     overflow: auto;
+    overflow-x: hidden;
 }
 
-.App{
+.App {
     display: grid;
-    grid-template: 10vh 1fr / 1fr;
+    grid-template: 10vh 1fr 100px / 100vw;
+    gap: 50px;
 }
 
-.light.App, .light .element{
+.light.App,
+.light .element {
     background-color: var(--Light-Mode-Background);
 }
-.dark.App, .dark .element{
+
+.dark.App,
+.dark .element {
     background-color: var(--Dark-Mode-Background);
 }
 
-.light p, .light h1, .light span{
+.light p,
+.light h1,
+.light span,
+.light h2,
+.light h3 {
     color: var(--Light-Mode-Text);
 }
-.dark p, .dark h1, .dark span{
+
+.dark p,
+.dark h1,
+.dark span,
+.dark h2,
+.dark h3 {
     color: var(--Dark-Mode-Text-and-Light-Mode-Elements);
 }
 
+.icon{
+    width: 32px;
+    height: 32px;
+}
 
 
 /* header text and colors */
 
+/* home page text and color */
+
+.light .link-button {
+    background-color: #222;
+    border-style: none;
+    color: #fff;
+}
+
+.dark .link-button {
+    background-color: var(--Light-Mode-Background);
+}
+
+.light .card-container{
+    background-color: var(--Dark-Mode-Text-and-Light-Mode-Elements);
+
+}
+.dark .card-container{
+    background-color: var(--Dark-Mode-Elements);
+    
+}
+
+/* reponsive design */
+
+@media screen and (max-width:500px) {
+    html{
+        font-size: 16px;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    html{
+        font-size: 14px;
+    }
+}

@@ -1,9 +1,9 @@
 import React, { useState, useEffect,useRef } from "react";
 import { Link, NavLink } from "react-router-dom";
-import moonLogo from '../../icons/moon.svg';
-import sunLogo from '../../icons/sun.svg';
-import menuLight from '../../icons/menu-light.svg';
-import menuDark from '../../icons/menu-dark.svg';
+import moonLogo from '../../resources/moon.svg';
+import sunLogo from '../../resources/sun.svg';
+import menuLight from '../../resources/menu-light.svg';
+import menuDark from '../../resources/menu-dark.svg';
 import './headerStyle.css';
 
 

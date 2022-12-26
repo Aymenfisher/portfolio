@@ -1,0 +1,22 @@
+.footer{
+    height: 120px;
+    grid-area: 3 / 1 / span 1 / span 1;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0 10vw;
+    box-shadow: 0 0 1px 0 gray;
+}
+
+.social-links{
+    display: flex;
+    gap: 20px;
+}
+
+
+@media screen and (max-width:1024px) {
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
