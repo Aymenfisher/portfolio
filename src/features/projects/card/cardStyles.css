@@ -1,20 +1,42 @@
 /* card Styling */
 .card-container{
     overflow: hidden;
+    min-height: 100%;
     border-radius: 10px;
-    box-shadow: 0 0 1px 0 gray;
+    box-shadow: 0 0 3px 0 gray;
+    display: grid;
+    grid-template: 200px 280px / 1fr;
 }
 
 .card-container:hover{
-    transform: scale(110%);
-    transition: transform 200ms linear;
+    box-shadow: 0 0 10px 0 gray;
 }
-.project-screenshot:hover{
-    transform: scale(20px);
+
+.project-screenshot{
+    overflow: hidden;
+}
+
+.screenshot:hover{
+    transform: scale(120%);
     transition: transform 200ms linear;
     cursor: pointer;
 }
 
 .card-body{
     padding: 10px;
+}
+
+.card-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-links{
+    display: flex;
+    gap: 10px;
+}
+
+.project-description{
+    font-size: 18px;
 }

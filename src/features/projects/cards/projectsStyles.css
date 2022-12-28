@@ -1,16 +1,45 @@
 /* Projects page Styling */
 
-.projects{
+.projects {
     padding: 0 5vw;
     display: flex;
     flex-direction: column;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
 }
 
-.cards{
+.projects-text {
+    align-self: center;
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+    text-align-last: center;
+    width: fit-content;
+    padding: 2vh 2vw;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+
+.cards {
+    padding: 0;
+    width: 100%;
     display: grid;
-    grid-template: 1fr / repeat(auto-fill,300px);
+    grid-template: 480px / repeat(auto-fill, 320px);
     grid-auto-flow: row;
     gap: 20px;
     justify-content: space-between;
 }
 
+
+@media screen and (max-width: 735px) {
+    .cards{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .cards{
+        grid-template: 480px / repeat(auto-fill, 300px);
+    }
+}
