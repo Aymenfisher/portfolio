@@ -25,14 +25,14 @@
     padding: 0;
     width: 100%;
     display: grid;
-    grid-template: 480px / repeat(auto-fill, 320px);
+    grid-template: 520px / repeat(auto-fill, 360px);
     grid-auto-flow: row;
     gap: 20px;
     justify-content: space-between;
 }
 
 
-@media screen and (max-width: 735px) {
+@media screen and (max-width: 824px) {
     .cards{
         justify-content: center;
     }

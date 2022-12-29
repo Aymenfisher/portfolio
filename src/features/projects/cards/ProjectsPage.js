@@ -1,9 +1,14 @@
 import React from 'react';
 import { ProjectCard } from '../card/ProjectCard';
+import { selectProjects } from '../projectsSlice';
+import { useSelector } from 'react-redux';
 import './projectsStyles.css'
 
 
 export const ProjectsPage = () => {
+
+
+    const projects = useSelector(selectProjects)
 
     return (
         <main className='projects'>
@@ -14,14 +19,9 @@ export const ProjectsPage = () => {
                 You can visit my Github Repositories <a style={{ color: 'steelblue' }} href='https://github.com/Aymenfisher?tab=repositories' rel='noreferrer' target='_blank'>Here.</a>
             </p>
             <ul className='cards tech-projects'>
-                <li className='card'><ProjectCard /></li>
-                <li className='card'><ProjectCard /></li>
-                <li className='card'><ProjectCard /></li>
-                <li className='card'><ProjectCard /></li>
-                <li className='card'><ProjectCard /></li>
-                <li className='card'><ProjectCard /></li>
-                <li className='card'><ProjectCard /></li>
-                <li className='card'><ProjectCard /></li>
+                {
+                    projects.map(project => <li className='card' key={project.title}><ProjectCard  project={project} /></li> )
+                }
             </ul>
         </main>
     )

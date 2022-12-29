@@ -8,8 +8,8 @@ import { selectTechs, selectOtherSkills } from "../../features/skills/skillsSlic
 
 
 export const HomePage = () => {
-    const techSkills = useSelector(selectTechs);
-    const otherSkills = useSelector(selectOtherSkills);
+    const techSkills = Object.values(useSelector(selectTechs));
+    const otherSkills = useSelector(selectOtherSkills) ;
 
     return (
         <main className="home-page">

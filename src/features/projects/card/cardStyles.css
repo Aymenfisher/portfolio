@@ -31,12 +31,23 @@
     justify-content: space-between;
     align-items: center;
 }
+.project-title{
+    font-size: 20px;
+    font-weight: 800;
+}
 
 .project-links{
     display: flex;
     gap: 10px;
 }
 
+.project-techs{
+    display: flex;
+    gap: 5px;
+    justify-content: flex-start;
+}
+
 .project-description{
     font-size: 18px;
+    line-height: 1.5;
 }
