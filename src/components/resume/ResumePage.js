@@ -13,7 +13,6 @@ export const ResumePage = () => {
 
     return (
         <main className="resume-page">
-            <section className="resume">
                 <h2 className="resume-title">Resume:</h2>
                 <p className="resume-description">
                     Here are my Resume in both English and French languages.<br />
@@ -25,8 +24,6 @@ export const ResumePage = () => {
                     <a  href={resumeLink.fr} rel='noreferrer' target='_blank'><button className="link-button" title='Download Frensh Version'>French Version</button></a>
                 </div>
                 <p className="error-message">Problem with Downloading? <a style={{ color: 'steelblue' }} href={resumeLink.drive} rel='noreferrer' target='_blank'>Try Here</a>. Or <Link style={{ color: 'steelblue' }} to='/contact'>Contact me!</Link> </p>
-
-            </section>
 
         </main>
     )

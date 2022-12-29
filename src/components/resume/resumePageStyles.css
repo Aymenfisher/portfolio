@@ -1,4 +1,5 @@
 .resume-page{
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -6,32 +7,49 @@
     padding: 0 5vw;
 }
 
-.resume{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-}
+
 
 .resume-title{
     align-self: flex-start;
 }  
 
 .resume-description{
+    width: 100%;
     text-align: center;
     font-family: 'Roboto',sans-serif;
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 400;
     line-height: 2;
 }
 
 
 .resume-links{
+    width: 100%;
     display: flex;
+    justify-content: center;
     gap: 50px;
 }
 
+
+
 .link-button{ /* already styled from homepage */
     width: 200px;
+}
+
+.error-message{
+    text-align: center;
+}
+
+@media screen and (max-width:500px) {
+    .resume-links{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    
+    .link-button{ /* already styled from homepage */
+        width: 200px;
+    }
+    
 }
 
