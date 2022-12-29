@@ -1,7 +1,6 @@
 /* Projects page Styling */
 
 .projects {
-    padding: 0 5vw;
     display: flex;
     flex-direction: column;
     user-select: none;
@@ -11,7 +10,7 @@
 
 .projects-text {
     align-self: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans',sans-serif;
     line-height: 2;
     text-align-last: center;
     width: fit-content;

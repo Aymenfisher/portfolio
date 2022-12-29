@@ -11,6 +11,7 @@ export const Footer = () => {
                 <a href='https://www.facebook.com/niratzouri' rel='noreferrer' target='_blank'><img className='social-link icon' src='https://svgshare.com/i/p60.svg' alt='Facebook' title='Facebook' /></a>
                 <a href='https://www.github.com/aymenfisher' rel='noreferrer' target='_blank'><img className='social-link icon' src='https://svgshare.com/i/p54.svg' alt='Github' title='Github' /></a>
                 <a href='https://www.codecademy.com/profiles/aymenfisher' rel='noreferrer' target='_blank'><img className='social-link icon' src='https://svgshare.com/i/p5W.svg' alt='Codecademy' title='Codecademy' /></a>
+                <a href='mailto:fisheraymen@gmail.com' rel='noreferrer' target='_blank'><img className='social-link icon' src='https://svgshare.com/i/pBs.svg' alt='Email' title='Email' /></a>
             </div>
             <p className='credits'>Made in Algiers © 2022 Aymen Boudabia</p>
         </footer>

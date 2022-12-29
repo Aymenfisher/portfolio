@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
 :root {
     --Dark-Mode-Elements: hsl(209, 23%, 22%);
@@ -26,7 +27,15 @@ button {
 button:hover {
     opacity: .6;
 }
-
+.link-button {
+    height: 40px;
+    width: 150px;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 600;
+}
 
 a {
     text-decoration: unset;
@@ -73,6 +82,7 @@ body,
     background-color: var(--Dark-Mode-Background);
 }
 
+
 .light p,
 .light h1,
 .light span,
@@ -92,6 +102,12 @@ body,
 .icon{
     width: 32px;
     height: 32px;
+}
+
+main{
+    box-sizing: border-box;
+    width: 100vw;
+    padding: 0 5vw;
 }
 
 
