@@ -3,6 +3,7 @@ import './footerStyles.css'
 
 
 export const Footer = () => {
+    const currentYear = new Date().getFullYear();
 
     return (
         <footer className='footer'>
@@ -13,7 +14,7 @@ export const Footer = () => {
                 <a href='https://www.codecademy.com/profiles/aymenfisher' rel='noreferrer' target='_blank'><img className='social-link icon' src='https://svgshare.com/i/p5W.svg' alt='Codecademy' title='Codecademy' /></a>
                 <a href='mailto:fisheraymen@gmail.com' rel='noreferrer' target='_blank'><img className='social-link icon' src='https://svgshare.com/i/pBs.svg' alt='Email' title='Email' /></a>
             </div>
-            <p className='credits'>Made in Algiers © 2022 Aymen Boudabia</p>
+            <p className='credits'>Made in Algiers © {currentYear} Aymen Boudabia</p>
         </footer>
     )
 }
