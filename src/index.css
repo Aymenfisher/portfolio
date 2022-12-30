@@ -140,6 +140,11 @@ main{
 }
 
 /* reponsive design */
+@media screen and (max-width: 1024px) {
+    button:hover {
+        opacity: 1;
+    }
+}
 
 @media screen and (max-width:500px) {
     html{
