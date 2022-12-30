@@ -38,8 +38,17 @@
 }
 
 .about-body-text {
-    font-weight: 600;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
     text-indent: 5px;
+    line-height: 2;
+    padding: 20px;
+    text-align: justify;
+}
+
+.highlighted{
+    font-weight: 800;
 }
 
 .links-buttons {
@@ -117,6 +126,10 @@
         width: 400px;
         object-fit: unset;
     }
+    .about-body-text{
+        padding: 0;
+        text-align: left;
+    }
     .skills-body {
         padding: 0 20px;
     }
@@ -141,6 +154,6 @@
         gap:10px
     }
     .link-button {
-        width: 120px;
+        width: 120px !important;
     }
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { selectTechs } from '../../skills/skillsSlice';
+import noPhoto from '../../../resources/no-photo.svg'
 import './cardStyles.css'
 
 
@@ -9,7 +10,7 @@ export const ProjectCard = ({project}) => {
 
     return (
         <div className='card-container'>
-            <div className='project-screenshot'><img className='screenshot' src={project.screenshot} alt='project screenshot' ></img></div>
+            <div className='project-screenshot'><img className='screenshot' src={project.screenshot ? project.screenshot : noPhoto} alt='project screenshot' ></img></div>
             <div className='card-body'>
                 <div className='card-title'>
                     <h3 className='project-title'>{project.title}</h3>

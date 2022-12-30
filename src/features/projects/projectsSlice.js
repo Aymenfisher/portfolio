@@ -22,7 +22,7 @@ const initialProjects = [{
     githubLink:'https://github.com/Aymenfisher/inspirational-homepage',
     liveLink:'https://inspirationalhomepageaymen.netlify.app',
     techs:['react','redux','css','git','github'],
-    description:'A mini-todo App That uses APIs to fetch and displays weather according to the visitor\'s IP address, a background image carousel, and random quotes '
+    description:'A mini-todo App That uses APIs to fetch and displays weather according to the visitor\'s IP address, a background image carousel, and random quotes. '
 },
 {
     title:'Flashcards',
@@ -30,7 +30,7 @@ const initialProjects = [{
     githubLink:'https://github.com/Aymenfisher/flashcards-react-redux',
     liveLink:'https://flashcards-react-redux.netlify.app',
     techs:['react','redux','css','git','github'],
-    description:'My first React App,A simple Flash cards App, you can create Topics, Create Quizzes and Cards for Quizzes '
+    description:'My first React App,A simple Flash cards App, you can create Topics, Create Quizzes and Cards for Quizzes.'
 },
 {
     title:'Calculator App',
@@ -38,14 +38,59 @@ const initialProjects = [{
     githubLink:'https://github.com/Aymenfisher/calculator-app',
     liveLink:'https://calculatorappaymen.netlify.app/',
     techs:['html','css','javascript','git','github'],
-    description:'A Calculator App with 3 themes, Implemented with HTML5, CSS3 , and Vanilla JS'
+    description:'A Calculator App with 3 themes, Implemented with HTML5, CSS3 , and Vanilla JS.'
 },
 {
-    title:'fyyur',
-    screenshot:'https://raw.githubusercontent.com/Aymenfisher/calculator-app/master/screenshots/desktop-2.png',
-    githubLink:'https://github.com/Aymenfisher/fyyur/tree/master/projects/01_fyyur/starter_code',
+    title:'Interactive Card Details Form',
+    screenshot:'https://raw.githubusercontent.com/Aymenfisher/interactive-card-details-form/master/screenshots/web-1.png',
+    githubLink:'https://github.com/Aymenfisher/intro-section-with-dropdown-navigation',
+    liveLink:'https://aymenfisher.github.io/intro-section-with-dropdown-navigation/',
+    techs:['html','css','javascript','git','github'],
+    description:'A credit card form with nice preview,form validation, and a responsive design. I created it from scratsh using HTML5, CSS3, and Vanilla JS.'
+},
+{
+    title:'Intro Section With Dropdown Navigation',
+    screenshot:'https://raw.githubusercontent.com/Aymenfisher/intro-section-with-dropdown-navigation/master/screenshots/desktop-2.PNG',
+    githubLink:'https://github.com/Aymenfisher/interactive-card-details-form',
+    liveLink:'https://aymenfisher.github.io/interactive-card-details-form/',
+    techs:['html','css','javascript','git','github'],
+    description:'A Static Page with dropdown navigation, and mobile design, Created with HTML5,CSS3, and Vanilla JS.'
+},
+{
+    title:'IP Address Tracker',
+    screenshot:'https://raw.githubusercontent.com/Aymenfisher/ip-adress-tracker/master/screenshots/desktop-1.png',
+    githubLink:'https://github.com/Aymenfisher/ip-adress-tracker',
+    liveLink:'https://aymenfisher.github.io/ip-adress-tracker/',
+    techs:['html','css','javascript','git','github'],
+    description:'An IP Address tracker with maps view.You can track both domains and IP addresses, and see the location on maps. Created with HTML5,CSS3,Vanilla Js, used some APIs, and Leaflet Maps.'
+},
+{
+    title:'Expenses Chart Component',
+    screenshot:'https://raw.githubusercontent.com/Aymenfisher/expenses-chart-component/master/screenshots/desktop-1.png',
+    githubLink:'https://github.com/Aymenfisher/expenses-chart-component',
+    liveLink:'https://aymenfisher.github.io/expenses-chart-component/',
+    techs:['html','css','javascript','git','github'],
+    description:'A Simple Expenses Chart with hover State. Created with HTML5,CSS3, and Vanilla JS.'
+},
+{
+    title:'Fyyur',
+    screenshot:'https://raw.githubusercontent.com/Aymenfisher/fyyur/master/screenshots/fyyur.png',
+    githubLink:'https://github.com/Aymenfisher/fyyur',
     techs:['python','flask','flask-sqlalchemy','postgres','git','github'],
-    description:'Fyyur is a musical venue and artist booking site, I worked on the backend side where i implemented the routes with flask, and created the database tables using sqlalchemy ORM  on a Postgres DB.'
+    description:'Fyyur is a musical venue and artist booking site, I worked on the backend side where i completed the routes with flask, and created the database tables using sqlalchemy ORM  on a Postgres DB.'
+},
+{
+    title:'Trivia',
+    screenshot:'https://raw.githubusercontent.com/Aymenfisher/trivia/master/screenshots/trivia-4.png',
+    githubLink:'https://github.com/Aymenfisher/trivia',
+    techs:['python','flask','flask-sqlalchemy','git','github'],
+    description:'This project is a question/answer game. I implemented the REST API with Flask, used Flask-SQLAlchemy ORM, Implemented tests with Python unittest library, and created documentation of that app!'
+},
+{
+    title:'Casting Agency',
+    githubLink:'https://github.com/Aymenfisher/Casting-Agency',
+    techs:['python','flask','flask-sqlalchemy','postgres','git','github'],
+    description:'The Casting Agency is a REST API that is responsible for creating movies and managing and assigning actors to those movies. I implemented the API from scratch, created tests, IAM with JWT,documentation, and deployed it on heroku (using gunicorn).'
 }
 ]
 

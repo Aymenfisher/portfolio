@@ -6,6 +6,7 @@ import { HomePage } from './components/homePage/HomePage.js';
 import { ProjectsPage } from './features/projects/cards/ProjectsPage.js';
 import { ResumePage } from './components/resume/ResumePage.js';
 import { ContactPage } from './components/contact/contactPage.js';
+import NotFound from './components/notFound.js';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path='/projects' element={<ProjectsPage />}/>
         <Route path='/resume' element={<ResumePage/>}/>
         <Route path='/contact' element={<ContactPage theme={theme}/>}/>
+        <Route path='*' element={<NotFound/>}/>
       </Routes>
       <Footer/>
     </div>

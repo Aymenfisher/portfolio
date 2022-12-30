@@ -54,21 +54,21 @@ export const Header = ({ theme, setTheme }) => {
 
     return (
         <header className="header">
-            <p className="header-title"><Link to='/'>Aymen Boudabia</Link></p>
+            <h1 className="header-title"><Link to='/'>Aymen Boudabia</Link></h1>
             <div className="navigation-and-theme">
                 <nav className={`header-navigation element ${menuVisibility}`} ref={sideBarRef}>
                     <ul className="navigations">
                         <li className="navigation">
-                            <NavLink className='navlink' to='/home'><span className="navlink-title">Home</span></NavLink>
+                            <NavLink onClick={handleToggleMenuVisibility}  className='navlink' to='/home'><span className="navlink-title">Home</span></NavLink>
                         </li>
                         <li className="navigation">
-                            <NavLink className='navlink' to='/projects'><span className="navlink-title">Projects</span></NavLink>
+                            <NavLink onClick={handleToggleMenuVisibility}  className='navlink' to='/projects'><span className="navlink-title">Projects</span></NavLink>
                         </li>
                         <li className="navigation">
-                            <NavLink className='navlink' to='/resume'><span className="navlink-title">Resume</span></NavLink>
+                            <NavLink onClick={handleToggleMenuVisibility}  className='navlink' to='/resume'><span className="navlink-title">Resume</span></NavLink>
                         </li>
                         <li className="navigation">
-                            <NavLink className='navlink' to='/contact'><span className="navlink-title">Contact</span></NavLink>
+                            <NavLink onClick={handleToggleMenuVisibility}  className='navlink' to='/contact'><span className="navlink-title">Contact</span></NavLink>
                         </li>
                     </ul>
                 </nav>

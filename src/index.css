@@ -10,6 +10,7 @@
     --Light-Mode-Input: #858585;
     --Light-Mode-Background: hsl(0, 0%, 98%);
     --Dark-Mode-Text-and-Light-Mode-Elements: #ffffff;
+    --Dark-mode-paragraph: hsl(230, 20%, 96%);
 }
 
 ul {
@@ -75,15 +76,17 @@ body,
 .light.App,
 .light .element {
     background-color: var(--Light-Mode-Background);
+    transition:  background-color 100ms linear;
 }
 
 .dark.App,
 .dark .element {
     background-color: var(--Dark-Mode-Background);
+    transition:  background-color 100ms linear;
 }
 
 
-.light p,
+.light p
 .light h1,
 .light span,
 .light h2,
@@ -91,7 +94,9 @@ body,
     color: var(--Light-Mode-Text);
 }
 
-.dark p,
+.dark p{
+    color: var(--Dark-mode-paragraph);
+}
 .dark h1,
 .dark span,
 .dark h2,

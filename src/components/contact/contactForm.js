@@ -29,7 +29,7 @@ export const ContactForm = ({contactState,setContactState}) => {
             </div>
             <div className="form-field">
                 <label htmlFor="message" className='label'><p className='label-text'>Message:</p></label>
-                <textarea id='message' name="message" placeholder="Leave a Message" required></textarea>
+                <textarea id='message' name="message" placeholder="Leave a Message, Thought, Critics, Offer..." required></textarea>
             </div>
             <button className='link-button' type="submit">Send</button>
         </form>

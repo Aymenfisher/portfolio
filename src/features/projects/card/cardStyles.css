@@ -5,7 +5,7 @@
     border-radius: 10px;
     box-shadow: 0 0 3px 0 gray;
     display: grid;
-    grid-template: 200px 280px / 1fr;
+    grid-template: 200px 320px / 1fr;
 }
 
 .card-container:hover{
@@ -40,6 +40,9 @@
     display: flex;
     gap: 10px;
 }
+.project-link:hover{
+    filter: drop-shadow(0 0 10px gray) ;
+}
 
 .project-techs{
     display: flex;
@@ -48,6 +51,9 @@
 }
 
 .project-description{
-    font-size: 18px;
+    box-sizing: border-box;
+    padding: 3px;
+    font-size: 16px;
     line-height: 1.5;
+    font-family: 'Open Sans',sans-serif;
 }
