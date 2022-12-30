@@ -42,6 +42,8 @@ This is my first implementation of my personal portfolio website.
 ![](./screenshots/screenshot-9.png)
 ![](./screenshots/screenshot-10.png)
 ![](./screenshots/screenshot-11.png)
+![](./screenshots/screenshot-12.png)
+![](./screenshots/screenshot-13.png)
 
 
 ## My process
