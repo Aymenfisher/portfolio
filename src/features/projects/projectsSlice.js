@@ -43,16 +43,16 @@ const initialProjects = [{
 {
     title:'Interactive Card Details Form',
     screenshot:'https://raw.githubusercontent.com/Aymenfisher/interactive-card-details-form/master/screenshots/web-1.png',
-    githubLink:'https://github.com/Aymenfisher/intro-section-with-dropdown-navigation',
-    liveLink:'https://aymenfisher.github.io/intro-section-with-dropdown-navigation/',
+    githubLink:'https://github.com/Aymenfisher/interactive-card-details-form',
+    liveLink:'https://aymenfisher.github.io/interactive-card-details-form/',
     techs:['html','css','javascript','git','github'],
     description:'A credit card form with nice preview,form validation, and a responsive design. I created it from scratsh using HTML5, CSS3, and Vanilla JS.'
 },
 {
     title:'Intro Section With Dropdown Navigation',
     screenshot:'https://raw.githubusercontent.com/Aymenfisher/intro-section-with-dropdown-navigation/master/screenshots/desktop-2.PNG',
-    githubLink:'https://github.com/Aymenfisher/interactive-card-details-form',
-    liveLink:'https://aymenfisher.github.io/interactive-card-details-form/',
+    githubLink:'https://github.com/Aymenfisher/intro-section-with-dropdown-navigation',
+    liveLink:'https://aymenfisher.github.io/intro-section-with-dropdown-navigation/',
     techs:['html','css','javascript','git','github'],
     description:'A Static Page with dropdown navigation, and mobile design, Created with HTML5,CSS3, and Vanilla JS.'
 },
