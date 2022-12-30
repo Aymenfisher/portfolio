@@ -7,14 +7,14 @@
 
 .about {
     display: grid;
-    grid-template: 500px / 1fr 40%;
+    grid-template: 650px / 1fr 40%;
     justify-content: space-between;
 }
 
 
 .personal-photo {
     border-radius: 30px;
-    height: 500px;
+    height: 650px;
     object-fit: cover;
 }
 
