@@ -24,7 +24,7 @@ export const ProjectCard = ({project}) => {
                         project.techs.map(tech => <img className="skill-logo icon" src={techsLogos[tech.toLowerCase()].logo} alt={tech} title={tech} key={tech} />)
                     }
                 </div>
-                <p className='project-description'>
+                <p className='project-description description'>
                     {project.description}
                 </p>
             </div>

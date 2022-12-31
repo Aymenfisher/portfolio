@@ -22,7 +22,7 @@ export const ContactPage = () => {
         <main className="contact-page">
             <h2 className="contact-title">Contact:</h2>
             <div className="contact-body">
-                <p className="contact-text">Thanks for your visit!<strong> I'm open to work, and ready to give a 100%.</strong> <br />
+                <p className="contact-text description">Thanks for your visit!<strong> I'm open to work, and ready to give a 100%.</strong> <br />
                     I'm looking for any opportunity where i can help with my efforts and develop my skills.<br />
                     You can contact me here , or by any social link listed at the bottom!
                 </p>

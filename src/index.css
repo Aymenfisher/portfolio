@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
 :root {
@@ -29,13 +28,14 @@ button:hover {
     opacity: .6;
 }
 .link-button {
-    height: 40px;
-    width: 150px;
+    height: 56px;
+    width: 203px;
     padding: 5px;
     border: 1px solid;
     border-radius: 10px;
     text-align: center;
     font-weight: 600;
+    font-size: 22px;
 }
 
 a {
@@ -46,6 +46,7 @@ a {
 html {
     font-size: 18px;
     font-family: 'Nunito Sans', sans-serif;
+
 }
 
 p,
@@ -69,8 +70,9 @@ body,
 
 .App {
     display: grid;
-    grid-template: 10vh 1fr 100px / 100vw;
+    grid-template: 10vh 1fr 100px / min(1308px,100vw);
     gap: 50px;
+    justify-content: center;
 }
 
 .light.App,
@@ -115,7 +117,17 @@ main{
     padding: 0 5vw;
 }
 
+main,header,footer{
+    max-width: 1308px;
+}
 
+.highlighted{
+    font-weight: 800;
+    font-size: inherit;
+}
+.description{
+    font-family: 'Nunito',sans-serif;
+}
 /* header text and colors */
 
 /* home page text and color */

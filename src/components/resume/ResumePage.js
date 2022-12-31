@@ -14,7 +14,7 @@ export const ResumePage = () => {
     return (
         <main className="resume-page">
                 <h2 className="resume-title">Resume:</h2>
-                <p className="resume-description">
+                <p className="resume-description description">
                     Here are my Resume in both English and French languages.<br />
                     All my Certifications/Licences are attached on my <a style={{ color: 'steelblue' }} href='https://linkedin.com/in/aymen-boudabia' rel='noreferrer' target='_blank'>Linkedin Profile Here</a>.<br/>
                     I'm updating it consistantly since I'm always learning new Techs and developing my Skills 😁.
