@@ -184,10 +184,13 @@
         width: 300px;
         object-fit: unset;
     }
+    .intro-body-content{
+        text-align: center;
+    }
 
     .link-button {
         width: 120px !important;
-        height: 40px;
-        font-size: 1rem;
+        height: 40px !important;
+        font-size: 1rem !important;
     }
 }
