@@ -6,8 +6,8 @@ import './resumePageStyles.css'
 export const ResumePage = () => {
 
     const resumeLink ={
-        en:'https://drive.google.com/file/d/1Kt6dIpGEGlTudDZ_LCTBSAObcl5UlCn2/view?usp=share_link',
-        fr:'https://drive.google.com/file/d/1n1vshQwc3eXljYisYi5jLtcpvWKeE9SD/view?usp=share_link',
+        en:'https://drive.google.com/file/d/1979m7Nnhy8H4UUd4OjbHVK2GmfZCnsI2/view?usp=share_link',
+        fr:'https://drive.google.com/file/d/1NKOqGd54Zz07VkcGHcVWK-9cmqsF9wxP/view?usp=share_link',
         drive:'https://drive.google.com/drive/folders/1tdgMI5f9ivNJ9yJkzOCa9raF9eHyHYCP?usp=sharing'
     }
 
